@@ -1,4 +1,4 @@
-import factory # type: ignore
+import factory 
 from faker import Factory as FakerFactory
 
 from django.contrib.auth.models import User
@@ -32,4 +32,4 @@ class PostFactory(factory.django.DjangoModelFactory):
     status = 0
 
     class Meta:
-        model =  Post
+        model = Post
