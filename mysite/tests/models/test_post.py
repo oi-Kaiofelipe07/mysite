@@ -1,6 +1,8 @@
 import pytest
 
-from blog.factories import PostFactory
+from mysite.blog.views.post_views import PostView
+from mysite.blog.tests.factories import PostFactory
+
 
 @pytest.fixture
 def post_published():
